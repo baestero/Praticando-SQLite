@@ -1,1 +1,1 @@
-Repositório criado para estudos de SQLite
+# Repositório criado para estudos de SQLite
