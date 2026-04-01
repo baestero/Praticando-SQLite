@@ -5,6 +5,7 @@
 5.tabela clientes deve ter as colunas id, nome, email
 
 A tabela compras deve ter as colunas id, cliente_id, produto_id, data
+CREATE TABLE produtos(
   id INTEGER NOT NULL,
   nome TEXT NOT NULL,
   preco INTEGER NOT NULL
