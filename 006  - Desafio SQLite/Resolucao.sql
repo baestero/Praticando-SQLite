@@ -52,26 +52,13 @@ CREATE TABLE compras(
  - João comprou o Tablet no dia 2049-01-03
 PRAGMA TABLE_INFO (compras);
 
-INSERT INTO compras(id, cliente_id, produto_id, "data") 
-VALUES (
-  1, 
-  (SELECT id FROM clientes WHERE id = 2), 
-  (SELECT id FROM produtos WHERE id = 1), 
-  '2049-01-01'
-  ),
-  (
-  2, 
-  (SELECT id FROM clientes WHERE id = 1),
-  (SELECT id FROM produtos WHERE id = 2),
-  '2049-01-02'
-  ),
-  (
-  3,
-  (SELECT id FROM clientes WHERE id = 2),
-  (SELECT id FROM produtos WHERE id = 3),
-  '2049-01-03'
-  );
 
+INSERT INTO compras(id, cliente_id, produto_id, "data") 
+VALUES 
+  (1, 2, 1, '2049-01-01'),
+  (2, 1, 2, '2049-01-02'),
+  (3, 2, 3, '2049-01-03');
+  
   SELECT * FROM compras;
 
 9. Selecione todos os dados da tabela produtos.
