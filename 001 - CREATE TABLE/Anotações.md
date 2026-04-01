@@ -3,7 +3,7 @@
 ## CREATE TABLE nome_da_tabela;
 
 - Usado para criar uma nova tabela
-  obs: recomendado sempre suar ponto e virgula no final do comando.
+  obs: recomendado sempre usar ponto e virgula no final do comando.
 
 - Definição de dados
   Integer, TEXT, ETC..
