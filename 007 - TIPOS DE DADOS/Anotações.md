@@ -27,3 +27,8 @@
 - REAL: Números flutuantes
 - BLOB: Dados binários
 - NULL: Valor nulo
+
+# Conversão de tipos
+
+- O SQLite converte automaticamente os tipos de dados quando encessario.
+  - Se vc inserir um numero em uma coluna TEXT, o SQLite armazenará esse número como um texto e vice-versa.
