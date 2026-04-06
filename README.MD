@@ -11,12 +11,19 @@ Guardar o que vou aprendendo de forma incremental — da criação de tabelas at
 | Pasta | Conteúdo |
 |--------|-----------|
 | `001 - CREATE TABLE` | `CREATE_TABLE.sql` e `Anotações.md` (CREATE TABLE, DROP TABLE, PRAGMA, tipos) |
-| `002 - SELECT` | `Anotações.md` (consultas) |
+| `002 - SELECT` | `SELECT.sql` e `Anotações.md` (consultas) |
 | `003 - INSERT` | `INSERT.sql` e `Anotações.md` |
 | `004 - DELETE` | `DELETE.sql` e `Anotações.md` |
-| `DB/` | Pasta local para banco e experimentos (ignorada pelo Git — ver `.gitignore`) |
+| `005 - UPDATE` | `UPDATE.sql` e `Anotações.md` |
+| `006  - DESAFIO SQLITE` | `script.sql` e `Resolucao.sql` (desafio prático) |
+| `007 - TIPOS DE DADOS` | `TIPOS_DE_DADOS.sql` e `Anotações.md` |
+| `008 - STRICT` | `STRICT.sql` e `Anotacões.md` |
+| `009 - PRIMARY KEY` | `PRIMARY_KEY.sql` e `Anotações.md` |
+| `010 - FOREIGN_KEY` | `FOREIGN_KEY.sql` e `Anotações.md` |
+| `DB/` | Banco local (`db.sqlite`) e comandos de apoio (`comandos.sql`) |
 
 ## Convenções
 
 - Scripts terminam com `;` onde fizer sentido no SQLite.
 - Pastas numeradas seguem a ordem em que organizei os tópicos.
+- `DB/` é usado para testes locais e não deve ser versionado.
