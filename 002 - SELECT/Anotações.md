@@ -12,6 +12,10 @@
 
 - Retorna somente 2 primeiros registros da tabela cursos, limitando a consulta. Agiliza as consultas
 
+## CASO fosse SQL SERVER seria TOP 2;
+
+- SELECT TOP 2 \* FROM cursos;
+
 # WHERE
 
 ## SELECT \* FROM cursos WHERE id = 1;
