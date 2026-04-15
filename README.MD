@@ -20,6 +20,11 @@ Guardar o que vou aprendendo de forma incremental — da criação de tabelas at
 | `008 - STRICT` | `STRICT.sql` e `Anotacões.md` |
 | `009 - PRIMARY KEY` | `PRIMARY_KEY.sql` e `Anotações.md` |
 | `010 - FOREIGN_KEY` | `FOREIGN_KEY.sql` e `Anotações.md` |
+| `011 - RESTRICOES` | `RESTRICOES.sql` e `Anotações.md` |
+| `012 - RESTRICOES 2` | `RESTRICOES.sql` e `Anotações.md` |
+| `013 - MODELAGEM EXERCICIO` | `MODELAGEM_DE_DADOS.sql`, `CORRECAO.sql` e `Enunciado.md` |
+| `014 - OPERADORES` | `OPERADORES.sql` (operadores relacionais e lógicos) |
+| `015 - LIKE` | `LIKE.sql` e `Anotações.md` |
 | `DB/` | Banco local (`db.sqlite`) e comandos de apoio (`comandos.sql`) |
 
 ## Convenções
