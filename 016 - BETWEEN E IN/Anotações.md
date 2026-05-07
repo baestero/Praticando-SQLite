@@ -13,7 +13,7 @@
 
 # IN
 
-- É para verificar um valor dato uma lista de valores (array)
+- É para verificar um valor dado uma lista de valores (array)
 
   Retorna todos produtos que existem na categoria notebook e hardware.
   SELECT \* FROM produtos WHERE categoria **IN** ('notebook', 'hardware');
